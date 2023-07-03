@@ -1,0 +1,39 @@
+.Vote {
+  width: fit-content;
+  height: fit-content;
+  color: #5358b6;
+  background-color: #f5f6fb;
+  border-radius: 5px;
+  display: grid;
+}
+
+.VoteContent {
+  padding: 5px 10px;
+}
+
+button.voteButtons {
+  border: none;
+  padding: 0px;
+}
+
+button.customizedBtn {
+  color: #5358b6;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.customizedBtn:hover {
+  opacity: 0.5;
+}
+
+button.Delete {
+  color: #f06264
+}
+
+textarea {
+  width: 100%;
+  font-family: "Times New Roman";
+  font-size: 16px;
+}
